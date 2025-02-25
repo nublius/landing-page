@@ -12,6 +12,7 @@
     background-color: #1F2937;
     padding: 0px 270px; 
     flex-direction: column;
+    min-height: 550px;
 }
 
 .navbar {
@@ -44,11 +45,13 @@ h1 {
 
 .info-container {
     flex-direction: column;
+    width: 400px;
 }
 
 .hero-container {
-    margin-top: 150px;
+    margin-top: 50px;
     justify-content: space-between;
+    flex: 1;
 }
 
 .hero-img {
@@ -56,3 +59,8 @@ h1 {
     height: 200px;
     background-color: grey;
 }
+
+h1 {
+    font-size: 50px;
+}
+
